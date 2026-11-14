@@ -327,11 +327,11 @@ export default function App() {
                 <div className="relative py-16 flex flex-col items-center text-center">
                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-cyan-500/5 blur-[100px] rounded-full pointer-events-none" />
                    
-                   <div className="inline-flex items-center gap-2 px-3 py-1 bg-cyan-500/10 border border-cyan-500/20 rounded-full mb-8 z-10">
+                   {/* <div className="inline-flex items-center gap-2 px-3 py-1 bg-cyan-500/10 border border-cyan-500/20 rounded-full mb-8 z-10">
                       <div className="w-1 h-1 rounded-full bg-cyan-400" />
                       <span className="text-[9px] font-bold text-cyan-400 uppercase tracking-[0.2em]">All infrastructure nodes active</span>
                       <div className="w-1 h-1 rounded-full bg-cyan-400" />
-                   </div>
+                   </div> */}
 
                    <h3 className="text-7xl font-black text-white tracking-tighter mb-6 z-10">
                       Is That Website <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Safe?</span>
