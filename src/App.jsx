@@ -287,10 +287,10 @@ export default function App() {
         <header className="h-16 border-b border-white/5 flex items-center justify-between px-8 bg-slate-950/20 backdrop-blur-md shrink-0">
           <div className="flex flex-col">
             <h2 className="text-sm font-bold text-white tracking-tight uppercase">Website Security Analysis</h2>
-            <div className="flex items-center gap-2 mt-0.5">
+            {/* <div className="flex items-center gap-2 mt-0.5">
                <div className="w-1 h-1 rounded-full bg-emerald-500 animate-pulse" />
                <span className="text-[9px] text-slate-500 font-bold uppercase tracking-[0.2em]">All systems operational</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="flex items-center gap-4">
